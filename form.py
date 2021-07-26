@@ -18,6 +18,7 @@ Turma = Dados[3]
 Grupamento = Dados[4]
 Aula = Dados[6]
 
+
 idBotao = {'301':17, '302':20, '303':23, '304':26, '305':29, "A":36,"B":39}
 
 idCaixa = {
@@ -61,8 +62,6 @@ inputGrupamento.click()
 inputAula = browser.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[2]/div[6]/div/div/div[2]/div/div[1]/div[1]/div[1]')
 inputAula.click()
 
-abcd = idCaixa.get(Aula)
-print(abcd)
 
 time.sleep(0.5)
 try:
@@ -80,7 +79,3 @@ time.sleep(2)
 
 enviar = browser.find_element_by_xpath('//*[@id="mG61Hd"]/div[2]/div/div[3]/div[3]/div/div/span')
 enviar.click()
-
-
-
-
